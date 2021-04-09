@@ -94,7 +94,7 @@ body {
   top: 65%;
   transform: translate(-50%, 0);
   margin: 0;
-
+  padding: 10px;
   border-radius: 1rem;
   background-color: #7df2cc;
   color: #121111;
@@ -104,10 +104,8 @@ body {
   outline: none;
   cursor: pointer;
   box-shadow: 0px 4px 3px 2px rgb(0 0 0 / 20%);
-
   -webkit-animation: tracking-in-expand 0.8s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-
   animation: tracking-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .again-btn:hover {
